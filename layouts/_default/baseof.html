@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang=en>
+
+</html>
+
+<head>
+
+
+    {{ partial "header/site-head.html"}}
+    {{ partial "header/site-nav.html" .}}
+
+</head>
+
+<body>
+    <div class="container">
+
+        {{ block "main" . }}
+
+
+        {{ end }}
+    </div>
+
+    {{ partial "footer.html" .}}
+
+</body>
+
+</html>

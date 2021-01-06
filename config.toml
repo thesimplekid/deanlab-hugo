@@ -1,3 +1,10 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Deanlab"
+
+enableGitInfo = true
+
+[params]
+    email = "brendan@thesimplekid.com"
+    google_scholar = "z3z-PV8AAAAJ&hl"
+    copyright = "© Deanlab 2021"

@@ -1,0 +1,28 @@
+<hr />
+
+<footer role="contentinfo" class="text-muted">
+    <div class="col-sm-4">
+        <div>
+            <p>{{ .Site.Params.copyright }}</p>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <!-- TODO - algin footer -->
+        <div>
+            <a href="mailto:{{ .Site.Params.email }}">
+                <i class="fa fa-envelope"></i> {{ .Site.Params.email }}
+            </a>
+        </div>
+
+        <div>
+            <a href="https://scholar.google.com/citations?user={{ .Site.Params.google_scholar }}&hl=en">
+                <i class="fa fa-graduation-cap"></i>
+
+                <span class="username">google scholar</span>
+            </a>
+        </div>
+
+    </div>
+
+
+</footer>
