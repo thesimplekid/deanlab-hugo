@@ -3,7 +3,7 @@ menu:
   navbar:
     weight: 1
 title: "Home"
-layout: "page"
+layout: "single"
 ---
 
 ## Welcome to the Dean Lab
