@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<div class="container-fluid">
+    <div class="col-lg">
+        <div class="row module-row">
+
+            {{ range .Pages }}
+
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-block">
+                        <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
+                            src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_scale,w_320/{{ .Params.imageid }}">
+                        </img>
+                        <h3 class="card-title"><a href="{{.URL}}">{{ .Title }}</a></h3>
+                        <p class="card-text">{{ .Content }}</p>
+                        <p class="card-text"><small class="text-muted"><a href={{ .URL }}>More...</a></small></p>
+                    </div>
+                </div>
+            </div>
+
+            {{ end }}
+
+
+        </div>
+    </div>
+</div>
+{{ end }}

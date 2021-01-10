@@ -5,6 +5,7 @@ title = "Deanlab"
 enableGitInfo = true
 
 [params]
+    cloudinary_id="codegaucho"
     email = "brendan@thesimplekid.com"
     google_scholar = "z3z-PV8AAAAJ&hl"
     copyright = "© Deanlab 2021"

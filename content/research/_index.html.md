@@ -3,6 +3,6 @@ title: "Research"
 sharingicons: false
 menu:
   navbar:
-    weight: 6
+    weight: 7
 layout: "page"
 ---

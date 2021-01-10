@@ -3,7 +3,7 @@ title: "Contact"
 sharingicons: false
 menu:
   navbar:
-    weight: 2
+    weight: 8
 layout: "page"
 ---
 
