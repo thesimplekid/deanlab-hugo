@@ -1,11 +1,11 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Deanlab"
+title = "The Dean Lab"
 
 enableGitInfo = true
 
 [params]
     cloudinary_id="codegaucho"
-    email = "brendan@thesimplekid.com"
+    email = "cory.dean@gmail.com"
     google_scholar = "z3z-PV8AAAAJ&hl"
-    copyright = "© Deanlab 2021"
+    copyright = "© The Dean Lab 2021"
