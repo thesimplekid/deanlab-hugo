@@ -1,5 +1,4 @@
 ---
-layout: equipment
 title: "3He Cryostat"
 imageid: iyacgom5sourrtdsenje
 ---

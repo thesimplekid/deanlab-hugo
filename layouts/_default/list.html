@@ -14,9 +14,9 @@
                         <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
                             src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_scale,w_320/{{ .Params.imageid }}">
                         </img>
-                        <h3 class="card-title"><a href="{{.URL}}">{{ .Title }}</a></h3>
+                        <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                         <p class="card-text">{{ .Content }}</p>
-                        <p class="card-text"><small class="text-muted"><a href={{ .URL }}>More...</a></small></p>
+                        <p class="card-text"><small class="text-muted"><a href={{ .Permalink }}>More...</a></small></p>
                     </div>
                 </div>
             </div>
