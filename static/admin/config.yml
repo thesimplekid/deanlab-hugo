@@ -5,7 +5,7 @@ backend:
   media_folder: "static/images/uploads"
 
 media_library:
-  name: cloudinary\
+  name: cloudinary
   output_filename_only: true
   config:
     cloud_name: codegaucho
