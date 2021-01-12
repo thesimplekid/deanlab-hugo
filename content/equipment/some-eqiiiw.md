@@ -1,5 +1,5 @@
 ---
 title: some eqiiiw
-thumbnail: /xwrtubem7ldck58plwgf.jpg
+thumbnail: /linkedin12_March_1901_rti8u1.jpg
 ---
 this is cool
