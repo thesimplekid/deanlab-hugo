@@ -57,7 +57,6 @@ collections:
                 height: 350
                 width: 500
                 quality: auto
-                effect: b_rgb:4892d1
                 crop: fill
       - label: "Description"
         name: "body"
