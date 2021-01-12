@@ -29,25 +29,45 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-  - name: "people"
+  - name: "Reople"
     label: "people"
     folder: "content/people"
     create: true
     slug: "{{name}}"
     editor:
-      preview: true
+      preview: false
     fields:
       - label: "Name"
         name: "name"
         widget: "string"
       - label: "Headshot"
-        name: "imageid"
+        name: "headshot"
         widget: "image"
         required: false
       - label: "Position"
         name: "position"
         widget: "string"
-
       - label: "Body"
         name: "body"
-        width: "markdown"
+        widget: "markdown"
+  - name: "Research"
+    label: "research"
+    folder: "content/research"
+    create: true
+    slug: "{{ title }}"
+    editor:
+      preview: false
+    fields:
+      - label: "Title"
+        name: "label"
+        widget: "string"
+      - label: "Date"
+        name: "date"
+        widget: "date"
+      - label: "Picture"
+        name: "picture"
+        widget: "image"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
