@@ -59,7 +59,7 @@ collections:
       preview: false
     fields:
       - label: "Title"
-        name: "label"
+        name: "title"
         widget: "string"
       - label: "Date"
         name: "date"
@@ -67,6 +67,24 @@ collections:
       - label: "Picture"
         name: "picture"
         widget: "image"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+  - name: "News"
+    label: "news"
+    folder: "content/news"
+    create: true
+    slug: "{{title}}"
+    editor:
+      preview: false
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Date"
+        name: "date"
+        widget: "date"
         required: false
       - label: "Body"
         name: "body"
