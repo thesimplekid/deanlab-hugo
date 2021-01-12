@@ -19,6 +19,9 @@ collections:
     editor:
       preview: false
     fields:
+      media_library:
+        name: cloudinary
+        output_filename_only: true
       - { label: "Title", name: "title", widget: "string" }
       - {
           label: "Featured Image",
