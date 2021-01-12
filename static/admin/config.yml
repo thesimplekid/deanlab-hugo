@@ -5,20 +5,25 @@ backend:
   media_folder: "static/images/uploads"
 
 media_library:
-  name: uploadcare
+  name: cloudinary
   config:
-    publicKey: demopublickey
+    cloud_name: codegaucho
+    api_key: 368915759229351
 
 collections:
   - name: "equipment"
     label: "equipment"
     folder: "content/equipment"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     editor:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Featured Image",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
