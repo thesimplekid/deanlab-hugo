@@ -20,10 +20,19 @@
 
                 {{ end }}
                 <div class="card-block">
-                    <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Params.Name }}</a></h3>
-                    <h4>{{ .Params.Title }}</h4>
+                    <h3 class="card-title">
+                        <!--<a href="{{ .Permalink }}"> -->{{ .Params.Name }}
+                        <!--</a>-->
+                    </h3>
+                    {{ if .Params.Title }}
+                    <h5>{{ .Params.Title }}</h5>
+                    {{ else if .Params.position }}
+                    <h5>{{ .Params.position }}</h5>
+                    {{ end }}
                     <p class="card-text">{{ .Content }}</p>
-                    <p class="card-text"><small class="text-muted"><a href={{ .Permalink }}>More...</a></small></p>
+
+                    <!-- <p class="card-text"><small class="text-muted"><a href={{ .Permalink }}>More...</a></small></p>
+                    -->
                 </div>
             </div>
         </div>

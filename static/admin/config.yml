@@ -26,13 +26,6 @@ collections:
         name: "thumbnail"
         widget: "image"
         required: false
-        media_library:
-          config:
-            default_transformations:
-              - fetch_format: auto
-                width: 320
-                quality: auto
-                crop: lpad
       - label: "Body"
         name: "body"
         widget: "markdown"
@@ -51,14 +44,10 @@ collections:
         name: "imageid"
         widget: "image"
         required: false
-      #        media_library:
-      #         config:
-      #            default_transformations:
-      #              - fetch_format: auto
-      #                height: 350
-      #                width: 500
-      #               quality: auto
-      #                crop: lpad
-      - label: "Description"
+      - label: "Position"
+        name: "position"
+        widget: "string"
+
+      - label: "Body"
         name: "body"
         width: "markdown"
