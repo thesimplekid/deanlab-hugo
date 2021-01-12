@@ -12,7 +12,7 @@ media_library:
 
 collections:
   - name: "equipment"
-    label: "equipment"
+    label: "Equipment"
     folder: "content/equipment"
     create: true
     slug: "{{slug}}"
@@ -29,8 +29,8 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-  - name: "People"
-    label: "people"
+  - name: "people"
+    label: "People"
     folder: "content/people"
     create: true
     slug: "{{name}}"
@@ -50,8 +50,8 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-  - name: "Research"
-    label: "research"
+  - name: "research"
+    label: "Research"
     folder: "content/research"
     create: true
     slug: "{{slug}}"
@@ -71,8 +71,8 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-  - name: "News"
-    label: "news"
+  - name: "news"
+    label: "News"
     folder: "content/news"
     create: true
     slug: "{{slug}}"
@@ -100,14 +100,14 @@ collections:
             name: "body"
             widget: "markdown"
       - file: "content/contact.md"
-        label: "contact"
+        label: "Contact"
         name: "contact"
         fields:
           - label: "Body"
             name: "body"
             widget: "markdown"
       - file: "content/publications.md"
-        label: "publications"
+        label: "Publications"
         name: "publications"
         fields:
           - label: "Body"
