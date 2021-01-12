@@ -9,9 +9,16 @@
 
         <div class="col-sm-4">
             <div class="card">
+                {{ if .Params.imageid }}
                 <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
                     src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/b_rgb:4892d1,c_lpad,h_350,q_100,w_500/{{ .Params.imageid }}">
                 </img>
+                {{ else if .Params.headshot }}
+                <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
+                    src="{{ .Params.headshot }}">
+                </img>
+
+                {{ end }}
                 <div class="card-block">
                     <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Params.Name }}</a></h3>
                     <h4>{{ .Params.Title }}</h4>

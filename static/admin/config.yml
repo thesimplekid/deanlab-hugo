@@ -32,8 +32,33 @@ collections:
                 width: 320
                 quality: auto
                 crop: fill
-                effect: grayscale
-
       - label: "Body"
         name: "body"
         widget: "markdown"
+  - name: "people"
+    label: "people"
+    folder: "content/people"
+    create: true
+    slug: "{{name}}"
+    editor:
+      preview: true
+    fields:
+      - label: "Name"
+        name: "name"
+        widget: "string"
+      - label: "Headshot"
+        name: "headshot"
+        widget: "image"
+        required: false
+        media_library:
+          config:
+            default_transformations:
+              - fetch_format: auto
+                height: 350
+                width: 500
+                quality: auto
+                effect: b_rgb:4892d1
+                crop: fill
+      - label: "Description"
+        name: "body"
+        width: "markdown"
