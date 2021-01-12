@@ -16,7 +16,7 @@
                     </img>
                     {{ else if .Params.thumbnail }}
                     <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
-                        src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_lpad,w_320,{{ .Params.thumbnail }}">
+                        src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/c_lpad,w_320{{ .Params.thumbnail }}">
                     </img>
 
                     {{ end }}

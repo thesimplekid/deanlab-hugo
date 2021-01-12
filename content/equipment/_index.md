@@ -2,7 +2,7 @@
 title: "Equipment"
 menu:
   navbar:
-    weight: 5
+    weight: 4
 layout: "equiment-list"
 ---
 

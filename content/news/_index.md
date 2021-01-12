@@ -2,6 +2,6 @@
 title: "News"
 menu:
   navbar:
-    weight: 3
+    weight: 2
 layout: wide-list
 ---

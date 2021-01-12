@@ -2,6 +2,6 @@
 title: "People"
 menu:
   navbar:
-    weight: 4
+    weight: 3
 layout: "people-list"
 ---

@@ -2,6 +2,6 @@
 title: "Research"
 menu:
   navbar:
-    weight: 7
+    weight: 5
 layout: "wide-list"
 ---

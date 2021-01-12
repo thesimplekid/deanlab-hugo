@@ -11,6 +11,30 @@ media_library:
     api_key: 368915759229351
 
 collections:
+  - file: "content/_index.md"
+    label: "Home Page"
+    name: "home"
+    fields:
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+  - file: "content/contact.md"
+    label: "contact"
+    name: "contact"
+    fields:
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+  - file: "content/publications.md"
+    label: "publications"
+    name: "publications"
+    fields:
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
   - name: "equipment"
     label: "equipment"
     folder: "content/equipment"
