@@ -15,7 +15,7 @@
                 </img>
                 {{ else if .Params.headshot }}
                 <img alt=" {{ .Title }}" class="card-img-top img-responsive" style="display: block;"
-                    src="{{ .Params.headshot }}">
+                    src="https://res.cloudinary.com/{{ .Site.Params.cloudinary_id }}/image/upload/b_rgb:4892d1,c_lpad,h_350,q_100,w_500{{ .Params.headshot }}">
                 </img>
 
                 {{ end }}
