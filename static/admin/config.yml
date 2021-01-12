@@ -5,6 +5,7 @@ backend:
 
 media_library:
   name: cloudinary
+  output_filename_only: true
   config:
     cloud_name: codegaucho
     api_key: 368915759229351
@@ -47,17 +48,17 @@ collections:
         name: "name"
         widget: "string"
       - label: "Headshot"
-        name: "headshot"
+        name: "imageid"
         widget: "image"
         required: false
-        media_library:
-          config:
-            default_transformations:
-              - fetch_format: auto
-                height: 350
-                width: 500
-                quality: auto
-                crop: lpad
+      #        media_library:
+      #         config:
+      #            default_transformations:
+      #              - fetch_format: auto
+      #                height: 350
+      #                width: 500
+      #               quality: auto
+      #                crop: lpad
       - label: "Description"
         name: "body"
         width: "markdown"
