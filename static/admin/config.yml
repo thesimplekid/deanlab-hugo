@@ -5,7 +5,8 @@ backend:
   media_folder: "static/images/uploads"
 
 media_library:
-  name: cloudinary
+  name: cloudinary\
+  output_filename_only: true
   config:
     cloud_name: codegaucho
     api_key: 368915759229351
@@ -19,9 +20,6 @@ collections:
     editor:
       preview: false
     fields:
-      media_library:
-        name: cloudinary
-        output_filename_only: true
       - { label: "Title", name: "title", widget: "string" }
       - {
           label: "Featured Image",
